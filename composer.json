@@ -20,5 +20,15 @@
         "php": "^8",
         "laravel/framework": "^10.0",
         "webboy/open-ai-api-client": "^1.0.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webboy\\LaravelOpenAiApiClient\\ServiceProviders\\OpenAIClientServiceProvider"
+            ],
+            "aliases": {
+                "OpenAIClient": "Webboy\\LaravelOpenAiApiClient\\Facades\\OpenAIClientFacade"
+            }
+        }
     }
 }
