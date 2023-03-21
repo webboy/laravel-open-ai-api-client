@@ -13,7 +13,7 @@ class OpenAIClientServiceProvider extends ServiceProvider
      */
     public function register(): void
     {
-        $this->app->singleton('open-ai-client', function ($app) {
+        $this->app->singleton('open-ai-api-client', function ($app) {
             return new OpenAIClientAdapter(config('openai.api_key'),config('openai.base_url'));
         });
         // Merge the default package configuration with the user's configuration
