@@ -3,7 +3,7 @@
     "description": "Laravel package adapting PHP OpenAI API Client",
     "type": "library",
     "license": "MIT",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "autoload": {
         "psr-4": {
             "Webboy\\LaravelOpenAiApiClient\\": "src/"
