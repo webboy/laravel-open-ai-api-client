@@ -1,0 +1,24 @@
+{
+    "name": "webboy/laravel-open-ai-api-client",
+    "description": "Laravel package adapting PHP OpenAI API Client",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Webboy\\LaravelOpenAiApiClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nemanja Milenkovic",
+            "email": "extramedia.nemanja@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8",
+        "laravel/framework": "^10.0",
+        "webboy/open-ai-api-client": "^1.0.0"
+    }
+}
